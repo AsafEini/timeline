@@ -28,9 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/vis/dist/vis.min.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/vis/dist/vis.min.js"]
           },
           "configurations": {
             "production": {
@@ -93,9 +94,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/vis/dist/vis.min.css"
             ],
-            "scripts": []
+            "scripts": [ "node_modules/vis/dist/vis.min.js" ]
           }
         },
         "lint": {

@@ -1,0 +1,22 @@
+:host ::ng-deep {
+  .timeline-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    .myCSSclass {
+      height: 350px;
+    }
+    .red-boy {
+      background-color: red;
+    }
+    .group-container {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+    }
+    .vis-inner {
+      height: 100px;
+    }
+  }
+}
